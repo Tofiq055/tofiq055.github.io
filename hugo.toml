@@ -1,13 +1,10 @@
 baseURL = "https://tofiq055.github.io/"
 title = "TOFIG VALIYEV"
 theme = "PaperMod"
+languageCode = "tr-TR"
 
 [pagination]
   pagerSize = 10
-
-# Multilingual-ready: Default language is Turkish
-defaultContentLanguage = "tr"
-defaultContentLanguageInSubdir = false
 
 # Enable useful features
 enableRobotsTXT = true
@@ -17,65 +14,38 @@ buildExpired = false
 enableEmoji = true
 
 # Minify output
-minify.disableXML = true
-minify.minifyOutput = true
+[minify]
+  disableXML = true
+  minifyOutput = true
 
 # =============================================================================
-# LANGUAGES (Multilingual-ready)
+# MENU
 # =============================================================================
 
-[languages]
-  [languages.tr]
-    languageName = "Türkçe"
-    languageCode = "tr-TR"
-    weight = 1
-    title = "TOFIG VALIYEV"
-    
-    [languages.tr.params]
-      description = "Computer Eng. Student & System Enthusiast"
-      
-    [[languages.tr.menu.main]]
-      name = "Ana Sayfa"
-      url = "/"
-      weight = 1
-    [[languages.tr.menu.main]]
-      name = "Yazılar"
-      url = "/posts/"
-      weight = 2
-    [[languages.tr.menu.main]]
-      name = "Kategoriler"
-      url = "/categories/"
-      weight = 3
-    [[languages.tr.menu.main]]
-      name = "Etiketler"
-      url = "/tags/"
-      weight = 4
-    [[languages.tr.menu.main]]
-      name = "Arama"
-      url = "/search/"
-      weight = 5
-    [[languages.tr.menu.main]]
-      name = "Hakkımda"
-      url = "/about/"
-      weight = 6
-
-  # Uncomment to enable English
-  # [languages.en]
-  #   languageName = "English"
-  #   languageCode = "en-US"
-  #   weight = 2
-  #   title = "TOFIG VALIYEV"
-  #   [languages.en.params]
-  #     description = "Computer Eng. Student & System Enthusiast"
-
-  # Uncomment to enable Azerbaijani
-  # [languages.az]
-  #   languageName = "Azərbaycanca"
-  #   languageCode = "az-AZ"
-  #   weight = 3
-  #   title = "TOFİQ VƏLİYEV"
-  #   [languages.az.params]
-  #     description = "Kompüter Mühəndisliyi Tələbəsi & Sistem Həvəskarı"
+[[menu.main]]
+  name = "Ana Sayfa"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "Yazılar"
+  url = "/posts/"
+  weight = 2
+[[menu.main]]
+  name = "Kategoriler"
+  url = "/categories/"
+  weight = 3
+[[menu.main]]
+  name = "Etiketler"
+  url = "/tags/"
+  weight = 4
+[[menu.main]]
+  name = "Arama"
+  url = "/search/"
+  weight = 5
+[[menu.main]]
+  name = "Hakkımda"
+  url = "/about/"
+  weight = 6
 
 # =============================================================================
 # PARAMS (Theme Settings)
@@ -138,17 +108,6 @@ Bu blogda tech, günlük düşünceler ve gündem hakkında yazıyorum.
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/Tofiq055"
-  
-  # Uncomment and add your social links
-  # [[params.socialIcons]]
-  #   name = "linkedin"
-  #   url = "https://linkedin.com/in/yourprofile"
-  # [[params.socialIcons]]
-  #   name = "twitter"
-  #   url = "https://twitter.com/yourhandle"
-  # [[params.socialIcons]]
-  #   name = "email"
-  #   url = "mailto:your@email.com"
 
   # Search settings
   [params.fuseOpts]
@@ -159,12 +118,6 @@ Bu blogda tech, günlük düşünceler ve gündem hakkında yazıyorum.
     threshold = 0.4
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
-
-  # Edit post link (optional)
-  # [params.editPost]
-  #   URL = "https://github.com/Tofiq055/tofiq055.github.io/tree/main/content"
-  #   Text = "Değişiklik Öner"
-  #   appendFilePath = true
 
 # =============================================================================
 # OUTPUTS (RSS, Search JSON, Sitemap)
