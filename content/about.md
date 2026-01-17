@@ -7,14 +7,14 @@ summary: "Hakkımda"
 
 ## Ben Kimim?
 
-Merhaba! Ben Tofig Valiyev. Computer Engineering öğrencisiyim ve sistem/teknoloji meraklısıyım.
-
+Ben Tofig Valiyev, Çukurova Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.
+    2003 yılında Azerbaycan'da dünyaya geldim.
 ### İlgi Alanlarım
 
-- 💻 Yazılım Geliştirme
-- 🔧 Sistem Yönetimi
-- 🌐 Web Teknolojileri
-- 📚 Sürekli öğrenme
+- Oyunlar
+- Teknoloji Gündemi
+-  Web Teknolojileri
+-  Sürekli öğrenme
 
 ### İletişim
 

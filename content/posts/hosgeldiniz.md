@@ -21,14 +21,13 @@ Bu blog, teknoloji, yazılım ve günlük düşüncelerimi paylaşacağım bir a
 
 ### Ne Bekleyebilirsiniz?
 
-- **Tech**: Yazılım geliştirme, araçlar, yeni teknolojiler
-- **Günlük**: Kişisel düşünceler ve notlar
-- **Gündem**: Aktüel konular ve analizler
-- **Genel**: Diğer ilgi çekici konular
+- **Teknoloji**: Yazılım geliştirme, yaptığım projeler ve onları yaparken deneyimlediklerim
+- **Gündem**: Yazılım dünyasındaki aktüel konular ve analizler
+
 
 ### Neden Blog?
 
-Markdown ile yazı yazmak ve paylaşmak istiyorum. Hugo ile statik site oluşturmak hem hızlı hem de pratik.
+Medium sitesinde de paylaşmayı düşünüyorum. Bu blogu da kendi alanım olarak kullanmak istedim. Github Pages'de kendi sitemi yayınlamak farklı bir deneyim oldu.
 
 ---
 
