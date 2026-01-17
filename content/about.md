@@ -13,8 +13,8 @@ Ben Tofig Valiyev, Çukurova Üniversitesi Bilgisayar Mühendisliği öğrencisi
 
 - Oyunlar
 - Teknoloji Gündemi
--  Web Teknolojileri
--  Sürekli öğrenme
+- Web Teknolojileri
+- Sürekli öğrenme
 
 ### İletişim
 

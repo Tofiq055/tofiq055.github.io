@@ -4,7 +4,7 @@ date: 2026-01-17T07:30:00+03:00
 draft: false
 tags: ["genel", "başlangıç"]
 categories: ["Genel"]
-summary: "Bloguma hoş geldiniz! Burada tech, günlük düşünceler ve gündem hakkında yazacağım."
+summary: "Bloguma hoş geldiniz! Burada teknoloji gündemi, deneyimlerim ve genel olarak düşündüklerim hakkında yazacağım."
 cover:
   image: ""
   alt: ""
