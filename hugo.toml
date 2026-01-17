@@ -2,6 +2,12 @@ baseURL = "https://tofiq055.github.io/"
 title = "TOFIG VALIYEV"
 theme = "PaperMod"
 languageCode = "tr-TR"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "Türkçe"
+    weight = 1
 
 [pagination]
   pagerSize = 10
