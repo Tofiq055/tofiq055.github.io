@@ -14,12 +14,13 @@ Ben Tofig Valiyev, Çukurova Üniversitesi Bilgisayar Mühendisliği öğrencisi
 - Oyunlar
 - Teknoloji Gündemi
 - Web Teknolojileri
-- Sürekli öğrenme
+- Vibe coding, vibe thinking, vibe learning...
 
 ### İletişim
 
-<!-- Sosyal medya bağlantılarınızı ekleyin -->
+
 - **GitHub**: [Tofiq055](https://github.com/Tofiq055)
+- **LinkedIn**: [Tofig Valiyev](https://www.linkedin.com/in/tofig-valiyev-259442170/)
 
 ---
 

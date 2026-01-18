@@ -41,3 +41,4 @@ npm-debug.log*
 # Backup files
 *.bak
 *.backup
+*.html
