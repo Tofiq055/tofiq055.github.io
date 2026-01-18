@@ -42,4 +42,4 @@ npm-debug.log*
 *.bak
 *.backup
 blog-arastirma
-content/posts/yeni-yazi.html
+content/posts/*.html
