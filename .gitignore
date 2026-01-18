@@ -41,5 +41,5 @@ npm-debug.log*
 # Backup files
 *.bak
 *.backup
-*.html
 blog-arastirma
+content/posts/yeni-yazi.html
