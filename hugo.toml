@@ -104,16 +104,24 @@ enableEmoji = true
 
   # Home info mode
   [params.homeInfoParams]
-    Title = "Merhaba! 👋"
+    Title = "Merhaba, ben Tofig!"
     Content = """
-Computer Engineering öğrencisiyim ve sistem/teknoloji meraklısıyım. 
-Bu blogda tech, günlük düşünceler ve gündem hakkında yazıyorum.
+Bu blogda teknoloji gündemi, kişisel düşünceler ve teknik konular gibi birçok alanda yazılar yazmayı düşünüyorum.
+Beni bu hesaplardan takip edebilirsiniz.
 """
 
   # Social icons
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/Tofiq055"
+    
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/tofig-valiyev-259442170/"
+    
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:tofiq62@gmail.com"
 
   # Search settings
   [params.fuseOpts]
