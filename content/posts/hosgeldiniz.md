@@ -1,5 +1,5 @@
 ---
-title: "Hoş Geldiniz! 🎉"
+title: "Hoş Geldiniz! "
 date: 2026-01-17T07:30:00+03:00
 draft: false
 tags: ["genel", "başlangıç"]
