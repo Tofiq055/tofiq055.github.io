@@ -8,7 +8,7 @@ summary: "Hakkımda"
 ## Ben Kimim?
 
 Ben Tofig Valiyev, Çukurova Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.
-    2003 yılında Azerbaycan'da dünyaya geldim.
+2003 yılında Azerbaycan'da dünyaya geldim.
 ### İlgi Alanlarım
 
 - Oyunlar

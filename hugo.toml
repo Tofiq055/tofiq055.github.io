@@ -2,56 +2,137 @@ baseURL = "https://tofiq055.github.io/"
 title = "TOFIG VALIYEV"
 theme = "PaperMod"
 languageCode = "tr-TR"
-defaultContentLanguage = "en"
-
-[languages]
-  [languages.en]
-    languageName = "Türkçe"
-    weight = 1
+defaultContentLanguage = "tr"
 
 [pagination]
   pagerSize = 10
 
-# Enable useful features
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
 
-# Minify output
 [minify]
   disableXML = true
   minifyOutput = true
 
 # =============================================================================
-# MENU
+# LANGUAGES
 # =============================================================================
 
-[[menu.main]]
-  name = "Ana Sayfa"
-  url = "/"
-  weight = 1
-[[menu.main]]
-  name = "Yazılar"
-  url = "/posts/"
-  weight = 2
-[[menu.main]]
-  name = "Kategoriler"
-  url = "/categories/"
-  weight = 3
-[[menu.main]]
-  name = "Etiketler"
-  url = "/tags/"
-  weight = 4
-[[menu.main]]
-  name = "Arama"
-  url = "/search/"
-  weight = 5
-[[menu.main]]
-  name = "Hakkımda"
-  url = "/about/"
-  weight = 6
+[languages]
+  [languages.tr]
+    languageName = "Türkçe"
+    weight = 1
+    title = "TOFIG VALIYEV"
+    [languages.tr.params]
+      description = "Bilgisayar Müh. Öğrencisi & Sistem Meraklısı"
+      [languages.tr.params.homeInfoParams]
+        Title = "Merhaba, ben Tofig!"
+        Content = """
+Bu blogda teknoloji gündemi, kişisel düşünceler ve teknik konular gibi birçok alanda yazılar yazmayı düşünüyorum.
+Beni bu hesaplardan takip edebilirsiniz.
+"""
+
+    [[languages.tr.menu.main]]
+      name = "Ana Sayfa"
+      url = "/"
+      weight = 1
+    [[languages.tr.menu.main]]
+      name = "Yazılar"
+      url = "/posts/"
+      weight = 2
+    [[languages.tr.menu.main]]
+      name = "Kategoriler"
+      url = "/categories/"
+      weight = 3
+    [[languages.tr.menu.main]]
+      name = "Etiketler"
+      url = "/tags/"
+      weight = 4
+    [[languages.tr.menu.main]]
+      name = "Arama"
+      url = "/search/"
+      weight = 5
+    [[languages.tr.menu.main]]
+      name = "Hakkımda"
+      url = "/about/"
+      weight = 6
+
+  [languages.az]
+    languageName = "Azərbaycan"
+    weight = 2
+    title = "TOFIG VALIYEV"
+    [languages.az.params]
+      description = "Kompüter Müh. Tələbəsi & Sistem Həvəskarı"
+      [languages.az.params.homeInfoParams]
+        Title = "Salam, mən Tofiq!"
+        Content = """
+Bu blogda texnologiya gündəmi, şəxsi düşüncələr və texniki mövzular haqqında yazmağı düşünürəm.
+Məni bu hesablardan izləyə bilərsiniz.
+"""
+    [[languages.az.menu.main]]
+      name = "Ana Səhifə"
+      url = "/"
+      weight = 1
+    [[languages.az.menu.main]]
+      name = "Yazılar"
+      url = "/posts/"
+      weight = 2
+    [[languages.az.menu.main]]
+      name = "Kateqoriyalar"
+      url = "/categories/"
+      weight = 3
+    [[languages.az.menu.main]]
+      name = "Etiketlər"
+      url = "/tags/"
+      weight = 4
+    [[languages.az.menu.main]]
+      name = "Axtarış"
+      url = "/search/"
+      weight = 5
+    [[languages.az.menu.main]]
+      name = "Haqqımda"
+      url = "/about/"
+      weight = 6
+
+  [languages.en]
+    languageName = "English"
+    weight = 3
+    title = "TOFIG VALIYEV"
+    [languages.en.params]
+      description = "Computer Eng. Student & System Enthusiast"
+      [languages.en.params.homeInfoParams]
+        Title = "Hello, I'm Tofig!"
+        Content = """
+I plan to write about tech trends, personal thoughts, and technical topics on this blog.
+You can follow me on these accounts.
+"""
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Categories"
+      url = "/categories/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/tags/"
+      weight = 4
+    [[languages.en.menu.main]]
+      name = "Search"
+      url = "/search/"
+      weight = 5
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 6
 
 # =============================================================================
 # PARAMS (Theme Settings)
@@ -60,65 +141,29 @@ enableEmoji = true
 [params]
   env = "production"
   author = "Tofig Valiyev"
-  description = "Computer Eng. Student & System Enthusiast"
+  # Clean up: Removed description and homeInfoParams from global params as they are now per-language
   
-  # Date format (Turkish style)
   DateFormat = "2 January 2006"
-  
-  # Default theme: auto (follows system), dark, light
   defaultTheme = "auto"
-  
-  # Disable theme toggle button (false = enable)
   disableThemeToggle = false
-  
-  # Show reading time
   ShowReadingTime = true
-  
-  # Show share buttons
   ShowShareButtons = true
-  
-  # Show post navigation (prev/next)
   ShowPostNavLinks = true
-  
-  # Show breadcrumbs
   ShowBreadCrumbs = true
-  
-  # Show code copy button
   ShowCodeCopyButtons = true
-  
-  # Show RSS button
   ShowRssButtonInSectionTermList = true
-  
-  # Show Table of Contents
   ShowToc = true
   TocOpen = false
-  
-  # Show word count
   ShowWordCount = true
-  
-  # Comments (disabled by default)
   comments = false
   
-  # Cloudflare Web Analytics (add your token when ready)
-  # cloudflareAnalyticsToken = "YOUR_TOKEN_HERE"
-
-  # Home info mode
-  [params.homeInfoParams]
-    Title = "Merhaba, ben Tofig!"
-    Content = """
-Bu blogda teknoloji gündemi, kişisel düşünceler ve teknik konular gibi birçok alanda yazılar yazmayı düşünüyorum.
-Beni bu hesaplardan takip edebilirsiniz.
-"""
-
-  # Social icons
+  # Social icons (Global)
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/Tofiq055"
-    
   [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/tofig-valiyev-259442170/"
-    
   [[params.socialIcons]]
     name = "email"
     url = "mailto:tofiq62@gmail.com"
@@ -134,7 +179,7 @@ Beni bu hesaplardan takip edebilirsiniz.
     keys = ["title", "permalink", "summary", "content"]
 
 # =============================================================================
-# OUTPUTS (RSS, Search JSON, Sitemap)
+# OUTPUTS
 # =============================================================================
 
 [outputs]
@@ -149,7 +194,7 @@ Beni bu hesaplardan takip edebilirsiniz.
   category = "categories"
 
 # =============================================================================
-# MARKUP (Syntax Highlighting)
+# MARKUP
 # =============================================================================
 
 [markup]
