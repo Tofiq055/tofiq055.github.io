@@ -1,5 +1,5 @@
 ---
-title: "From February 6th to Today"
+title: "Engineering in Adana and the Changing World"
 date: 2026-02-06T10:00:00+03:00
 draft: true
 tags: ["personal", "university", "pandemic", "thoughts"]
@@ -17,4 +17,4 @@ I am studying Computer Engineering at Çukurova University in Adana - it's my fi
 
 2020 was definitely not an ideal year to start university education.
 
-[... User will translate the rest ...]
+[... Admin will translate the rest ...]

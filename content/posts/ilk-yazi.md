@@ -1,5 +1,5 @@
 ---
-title: "6 Şubat'tan Bugüne"
+title: "Adana'da Mühendislik ve Değişen Dünya"
 date: 2026-02-06T10:00:00+03:00
 draft: false
 tags: ["kişisel", "üniversite", "pandemi", "düşünceler"]
