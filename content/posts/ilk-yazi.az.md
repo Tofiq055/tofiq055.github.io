@@ -1,7 +1,7 @@
 ---
 title: "Adanada Mühəndislik və Dəyişən Dünya"
 date: 2026-02-06T10:00:00+03:00
-draft: true
+draft: false
 tags: ["şəxsi", "universitet", "pandemiya", "düşüncələr"]
 categories: ["Ümumi"]
 summary: "Pandemiya, distant təhsil, zəlzələ deyərkən 2020 girişli bir kompüter mühəndisliyi tələbəsi olaraqyaşadıqlarım və düşüncələrim."

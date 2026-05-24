@@ -1,7 +1,7 @@
 ---
 title: "Engineering in Adana and the Changing World"
 date: 2026-02-06T10:00:00+03:00
-draft: true
+draft: false
 tags: ["personal", "university", "pandemic", "thoughts"]
 categories: ["General"]
 summary: "From pandemic to remote education and earthquake, my journey as a Computer Engineering student started in 2020."
