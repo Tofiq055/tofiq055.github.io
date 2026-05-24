@@ -14,22 +14,7 @@
         {{- print " · "}}
     {{- end }}
 
-    <!-- Custom Total View Counter -->
-    <span>
-        Site Views: <span id="total_site_views">...</span>
-        {{- print " · "}}
-    </span>
-    <script>
-        window.addEventListener('load', function() {
-            fetch('https://tofiq055.goatcounter.com/counter//.json')
-                .then(response => response.json())
-                .then(data => {
-                    const el = document.getElementById('total_site_views');
-                    if (el) { el.innerText = data.count; }
-                })
-                .catch(err => console.log('GC Total Error:', err));
-        });
-    </script>
+
 
     <span>
         Powered by

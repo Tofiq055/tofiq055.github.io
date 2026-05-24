@@ -18,22 +18,6 @@
 {{- end }}
 {{- end }}
 
-<!-- Custom View Counter -->
-{{- $scratch.Add "meta" (slice (printf "<span id='goatcounter_views'>...</span>")) }}
-
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end -}}
-
-<script>
-    window.addEventListener('load', function() {
-        var path = window.location.pathname;
-        fetch('https://tofiq055.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
-            .then(function(response) { return response.json(); })
-            .then(function(data) {
-                var el = document.getElementById('goatcounter_views');
-                if (el) { el.innerText = data.count + " Görüntülenme"; }
-            })
-            .catch(function(err) { console.log('GC Error:', err); });
-    });
-</script>
